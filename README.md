@@ -24,7 +24,7 @@ A full-stack Expense Tracker application built with Next.js, TypeScript, Tailwin
 
 📸 Project Preview
 
-"Overview Dashboard" (./screenshots/overview.png)
+![Overview Dashboard](screenshots/overview.png)
 
 Dashboard displaying balance, income, expenses, transactions, and budget insights.
 
