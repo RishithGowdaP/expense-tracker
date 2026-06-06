@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+💰 Expense Tracker – Full Stack Finance Management App
+A modern full-stack Expense Tracker application designed to help users manage income, expenses, and budgets with real-time tracking and a clean analytics dashboard.
+Built using a scalable architecture with authentication, protected routes, and responsive UI.
+🚀 Key Features
+🔐 Authentication System
+Secure login and signup system
+Protected dashboard access
+User-specific financial data
+📊 Overview Dashboard
+Real-time balance tracking
+Total income vs expenses visualization
+Clean summary cards for quick insights
+➕ Quick Add Transaction
+Fast input for income and expenses
+Instant update to dashboard values
+Simple and user-friendly form
+📄 Transaction Management
+View complete transaction history
+Categorized income and expense records
+Easy deletion of transactions
+💰 Budget Dashboard
+Set and monitor budget limits
+Track spending vs budget usage
+Helps maintain financial discipline
+🛠️ Tech Stack
+Next.js (App Router)
+TypeScript
+Tailwind CSS
+Supabase (Auth + Database)
+## 📸 Screenshots
 
-## Getting Started
+### 🔐 Login Page
+![Login](./screenshots/login.png)
 
-First, run the development server:
+### 📊 Overview Dashboard
+![Overview](./screenshots/overview.png)
 
-```bash
+### ➕ Quick Add Transaction
+![Quick Add Transaction](./screenshots/quick-add-transaction.png)
+
+### 📄 Transaction Dashboard
+![Transactions](./screenshots/transactions.png)
+
+### 💰 Budget Dashboard
+![Budget](./screenshots/budget-dashboard.png)
+⚙️ Getting Started
+Clone the repository:
+Bash
+git clone https://github.com/RishithGowdaP/expense-tracker.git
+Install dependencies:
+Bash
+npm install
+Run development server:
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+http://localhost:3000
+🔐 Environment Variables
+Create a .env.local file:
+Environment
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+🌟 Project Highlights
+Full-stack authentication system
+Real-time financial tracking
+Budget monitoring feature
+Clean and responsive dashboard UI
+Modular and scalable code structure
+🚀 Future Improvements
+📊 Advanced analytics with charts
+💡 AI-based spending insights
+📱 Mobile-first optimization
+📤 Export transactions as PDF/CSV
+👨‍💻 Author
+Rishith Gowda P
+📄 License
+This project is for educational and portfolio purposes.
