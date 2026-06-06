@@ -36,13 +36,13 @@ Supabase (Auth + Database)
 ![Overview](./screenshots/overview.png)
 
 ### ➕ Quick Add Transaction
-![Quick Add Transaction](./screenshots/quick-add-transaction.png)
+![Quick Add](./screenshots/quick-add.png)
 
 ### 📄 Transaction Dashboard
 ![Transactions](./screenshots/transactions.png)
 
 ### 💰 Budget Dashboard
-![Budget](./screenshots/budget-dashboard.png)
+![Budget](./screenshots/budget.png)
 ⚙️ Getting Started
 Clone the repository:
 Bash
