@@ -2,6 +2,10 @@
 
 A full-stack Expense Tracker application built with Next.js, TypeScript, Tailwind CSS, and Supabase. The application helps users manage income, expenses, transactions, and budgets through a clean and responsive dashboard.
 
+## 🚀 Live Demo
+
+https://expense-tracker-ten-zeta-51.vercel.app
+
 🚀 Features
 
 - 🔐 Secure Authentication (Login & Signup)
